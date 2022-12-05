@@ -1,0 +1,58 @@
+:root {
+  --font-main: "DM Sans", sans-serif;
+  --font-add: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body,
+.container {
+  padding: 0;
+  margin: 0;
+}
+h1,
+ul,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2 {
+  font-size: 60px;
+}
+.container {
+  max-width: 1400px;
+}
+.main-screen {
+  height: 100vh;
+  background-color: #171718;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main-screen__header,
+.nav__a {
+  font-family: var(--font-add);
+}
+
+.header__nav li:not(:nth-child(3)) {
+  margin-right: 40px;
+}
+
+.projects,
+.main-screen__info,
+.copyright {
+  font-family: var(--font-main);
+}
+.card {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+.footer {
+  background-color: #171718;
+}
+img {
+  width: 100%;
+}
